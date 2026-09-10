@@ -34,6 +34,9 @@ export default function TicketList({ tickets, updatingId, onStatusChange, onSele
               <th className="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wide text-gray-500">
                 Created
               </th>
+              <th className="px-4 py-3 text-right text-xs font-semibold uppercase tracking-wide text-gray-500">
+                Actions
+              </th>
             </tr>
           </thead>
           <tbody>

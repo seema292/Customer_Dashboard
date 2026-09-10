@@ -5,7 +5,7 @@ import { TicketIcon, InboxIcon, ClockIcon, CheckCircleIcon } from './icons';
 // from the full ticket list, so counts update live when a status changes.
 export default function StatsBar({ stats }) {
   const cards = [
-    { label: 'Total Tickets', value: stats.total, accent: 'gray', icon: <TicketIcon /> },
+    { label: 'Total Tickets', value: stats.total, accent: 'indigo', icon: <TicketIcon /> },
     { label: 'Open', value: stats.open, accent: 'blue', icon: <InboxIcon /> },
     { label: 'In Progress', value: stats.inProgress, accent: 'amber', icon: <ClockIcon /> },
     { label: 'Resolved', value: stats.resolved, accent: 'emerald', icon: <CheckCircleIcon /> },
